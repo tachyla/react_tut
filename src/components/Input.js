@@ -2,7 +2,7 @@ import React from "react";
 //stateless component never changes
 
 export default function Input() {
-    const text = 'incoming message';
+    const text = "incoming message";
     return (
         <div className="input">
             {text}
