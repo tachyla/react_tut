@@ -55,7 +55,7 @@ function htmlTemplate( reactDom, reduxState, helmetData ) {
             <meta charset="utf-8">
             ${ helmetData.title.toString( ) }
             ${ helmetData.meta.toString( ) }
-            <title>React SSR</title>
+            <title>Beauty Supply</title>
             <link rel="stylesheet" type="text/css" href="./styles.css" />
         </head>
         

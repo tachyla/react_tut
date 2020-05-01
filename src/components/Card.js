@@ -4,7 +4,7 @@ export default function Card() {
     const greeting = "Hello from Card";
     return (
         <div className="card">
-            <h1>Messages</h1>
+            <h1>Company Names</h1>
             {greeting}
         </div>
     );

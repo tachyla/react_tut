@@ -4,12 +4,13 @@ import Header from "./Header";
 import routes from "../routes";
 import Input from "./Input";
 import Card from "./Card";
+import About from "./About";
 
 class Layout extends React.Component {
     constructor() {
         super();
         this.state = {
-            title: "Welcome to React SSR!",
+            title: "Welcome Beautiful!",
         };
     }
 
@@ -17,9 +18,10 @@ class Layout extends React.Component {
         return (
             <div>
                 <h1>{ this.state.title }</h1>
-                <Header />
                 <Input />
                 <Card />
+                <About />
+                <Header />
                 <Switch>
                     { routes.map( route => <Route key={ route.path } { ...route } /> ) }
                 </Switch>
